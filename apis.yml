@@ -1,8 +1,28 @@
 aid: identiq
 name: Identiq
-description: 'Identiq is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Identiq operates a privacy-preserving, peer-to-peer identity validation network
+  that lets member companies confirm a customer is already known and trusted by
+  other members without any party sharing, exposing, or centralizing personal data.
+  Its patented anonymized protocol keeps identity data encrypted inside each
+  member's own environment while answering cross-network trust queries in real time.
+  Products include customer identification, sign-up validation, risk-based
+  onboarding, payment optimization, and trust & safety, serving travel, e-commerce,
+  ticketing, fintech, telco, and marketplace verticals. Identiq is a cybersecurity
+  company backed by Insight Partners and was added to the API Evangelist network as
+  a portfolio lead; it publishes a public trust center but no public developer API.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.identiq.com/wp-content/uploads/2024/03/newidentiqfavicon.png
 url: https://raw.githubusercontent.com/api-evangelist/identiq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Cybersecurity
+- Identity
+- Fraud Prevention
+- Identity Verification
+- Privacy
+- Trust and Safety
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/identiq-domain-security.yml
 - type: Website
   url: https://www.identiq.com/
+- type: Blog
+  url: https://www.identiq.com/blog
+- type: Support
+  url: https://www.identiq.com/contact
+- type: PrivacyPolicy
+  url: https://www.identiq.com/privacy-policy
+- type: TrustCenter
+  url: https://trustcenter.identiq.com/
+- type: Compliance
+  url: https://trustcenter.identiq.com/
+- type: LLMsTxt
+  url: llms/identiq-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

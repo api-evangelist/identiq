@@ -1,0 +1,31 @@
+generated: '2026-07-19'
+method: searched
+probe: false
+source: https://trustcenter.identiq.com/
+url: https://trustcenter.identiq.com/
+certifications:
+- SOC 2
+- ISO/IEC 27001
+- ISO/IEC 27701
+- PCI DSS v4.0.0
+- GDPR
+- CCPA
+reports:
+- name: SOC 2 Report
+- name: Pentest Report
+- name: Vulnerability Assessment Report
+- name: Security Whitepaper
+- name: CAIQ Self-Assessment
+- name: Data Processing Agreement
+subprocessors:
+- Microsoft Azure
+- Google Cloud
+- Amazon Web Services
+notes: >-
+  Identiq publishes a public trust center at trustcenter.identiq.com listing its
+  compliance posture and gated security documentation (reports require access
+  request). Qualys SSL Labs grade A+ reported for app.identiq.com. No public
+  bug-bounty or responsible-disclosure/security.txt program was found.
+evidence:
+- source: https://trustcenter.identiq.com/
+  keywords: [soc 2, iso 27001, iso 27701, pci dss, gdpr, ccpa, trust center]
