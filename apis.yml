@@ -11,6 +11,17 @@ description: >-
   ticketing, fintech, telco, and marketplace verticals. Identiq is a cybersecurity
   company backed by Insight Partners and was added to the API Evangelist network as
   a portfolio lead; it publishes a public trust center but no public developer API.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
