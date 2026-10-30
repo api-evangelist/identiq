@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Identiq is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting the enrichment pipeline.
+Identiq operates a privacy-preserving, peer-to-peer identity validation network that lets member companies confirm a customer is already known and trusted by other members without any party sharing, exposing, or centralizing personal data. Its patented anonymized protocol keeps identity data encrypted inside each member's own environment while answering cross-network trust queries in real time. Products include customer identification, sign-up validation, risk-based onboarding, payment optimization, and trust & safety, serving travel, e-commerce, ticketing, fintech, telco, and marketplace verticals. Identiq is a cybersecurity company backed by Insight Partners and was added to the API Evangelist network as a portfolio lead; it publishes a public trust center but no public developer API.
 
-Backed by: insight-partners — https://www.identiq.com/
+**Areas:** Company · Cybersecurity · Identity · Fraud Prevention · Identity Verification · Privacy · Trust and Safety · Fintech
+
+## Identiq on APIs.io
+
+Everything profiled for Identiq is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/identiq/](https://apis.io/providers/identiq/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Identiq Domain Security](https://apis.io/security/identiq/identiq-domain-security/)
+- [Identiq Trust Center](https://apis.io/security/identiq/identiq-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.identiq.com/)
+- [Support](https://www.identiq.com/contact)
+- [Blog](https://www.identiq.com/blog)
+- [Compliance](https://trustcenter.identiq.com/)
+- [Trust centre](https://trustcenter.identiq.com/)
+- [Privacy policy](https://www.identiq.com/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 8.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/identiq/](https://apis.io/providers/identiq/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Identiq: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/identiq/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
